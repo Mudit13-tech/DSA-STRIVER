@@ -9,6 +9,13 @@ class Node {
         data = x;
         next = nxt;
     }
+
+    public:
+    Node(int data1){
+        data = data1;
+        next = nullptr;
+        
+    }
 };
 Node* removes(Node* head){
     if( head == NULL){
